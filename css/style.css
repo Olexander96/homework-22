@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    scroll-behavior: smooth;
+}
+.partners {
+    background-color: #F8F1EA;
+}
+.guitars {
+    background-color: #fff;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.partner__slider, .guitar__slider {
+    min-width: 1380px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.guitar__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 224px;
+    padding-bottom: 20px;
+    border: 1px solid #F8F1EA;
+    margin: 0 10px 20px 10px;
+}
+.sold-item {
+    border: 1px solid #F16A50;
+}
+.in_stock {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #F16A50;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+}
+.sold {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #F8F1EA;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+}
+.guitar_img {
+    margin: 0 auto;
+    width: 204px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.guitar_info {
+    display: block;
+    margin: 0 auto;
+    max-width: 204px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.price {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+.partner-icon {
+    margin-right: 34px;
+    height: 65px;
+}
+
+.guitar__slider .arrow-left {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 72px;
+}
+.guitar__slider .arrow-right {
+    margin-left: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 72px;
+}
+
+.partner__slider .arrow-left {
+    margin-right: 35px;
+    cursor: pointer;
+    width: 40px;
+    height: 72px;
+}
+.partner__slider .arrow-right {
+    margin-left: 35px;
+    cursor: pointer;
+    width: 40px;
+    height: 72px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .guitar__slider {
+        min-width: 748px;
+    }
+    .guitar__slider .arrow-left {
+        margin-right: 0px;
+        width: 16px;
+        height: 30px;
+    }
+    .guitar__slider .arrow-right {
+        margin-left: 0px;
+        width: 16px;
+        height: 30px;
+    }
+
+    .partner__slider {
+        min-width: 748px;
+    }
+    .partner-icon {
+        margin-right: 24px;
+    }
+    .partner__slider .arrow-left {
+        margin-right: 0px;
+        width: 16px;
+        height: 30px;
+    }
+    .partner__slider .arrow-right {
+        margin-left: 0px;
+        width: 16px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 320px;
+    }
+    .guitar__slider {
+        min-width: 234px;
+    }
+    .guitar__item {
+        width: 299px;
+    }
+
+    .partner__slider {
+        min-width: 234px;
+    }
+    .partner-icon {
+        margin-right: 34px;
+    }
+}
