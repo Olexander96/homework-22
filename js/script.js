@@ -4,8 +4,8 @@ $(document).ready(function() {
         centerMode: false,
         slidesToShow: 9,
         slidesToScroll: 1,
-        prevArrow: '<img src="../img/arrow-left.svg" alt="slick-arrow" class="arrow-left">',
-        nextArrow: '<img src="../img/arrow-right.svg" alt="slick-arrow" class="arrow-right">',
+        prevArrow: '<img src="img/arrow-left.svg" alt="slick-arrow" class="arrow-left">',
+        nextArrow: '<img src="img/arrow-right.svg" alt="slick-arrow" class="arrow-right">',
         infinite: true,
 
         responsive: [
@@ -36,8 +36,8 @@ $(document).ready(function() {
         centerMode: false,
         slidesToShow: 5,
         slidesToScroll: 1,
-        prevArrow: '<img src="./img/arrow-left.svg" alt="slick-arrow" class="arrow-left">',
-        nextArrow: '<img src="./img/arrow-right.svg" alt="slick-arrow" class="arrow-right">',
+        prevArrow: '<img src="img/arrow-left.svg" alt="slick-arrow" class="arrow-left">',
+        nextArrow: '<img src="img/arrow-right.svg" alt="slick-arrow" class="arrow-right">',
         infinite: true,
         focusOnSelect: true,
 
