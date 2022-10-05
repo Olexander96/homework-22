@@ -3,6 +3,16 @@
     line-height: 1;
     scroll-behavior: smooth;
 }
+.visually-headen {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .partners {
     background-color: #F8F1EA;
 }
@@ -101,9 +111,9 @@
     text-align: center;
     color: #000000;
 }
-.partner-icon {
+.partner-logo {
     margin-right: 34px;
-    height: 65px;
+    height: 35px;
 }
 
 .guitar__slider .arrow-left {
@@ -154,7 +164,7 @@
     .partner__slider {
         min-width: 748px;
     }
-    .partner-icon {
+    .partner-logo {
         margin-right: 24px;
     }
     .partner__slider .arrow-left {
